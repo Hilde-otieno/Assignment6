@@ -1,3 +1,4 @@
+
 #container{
     border: solid white;
     width: 1200px;
@@ -16,7 +17,12 @@
 #nav{
     display: flex;
 }
-    
+ #class{
+    text-decoration: none;
+    word-spacing: 100px;
+    -webkit-text-fill-color: black;
+    font-size: medium;
+ }   
 
 
 #main{
@@ -164,7 +170,7 @@ font-size: larger;
     -webkit-text-fill-color: black;
     width: 1800px;
     margin: 50px;
-    height:600px
+
 }
 #testimonials{
      -webkit-text-fill-color: orangered;
@@ -227,4 +233,7 @@ font-size: larger;
     border: solid;
     background-color: black;
     -webkit-text-fill-color: aliceblue;
+}
+@media all and (max-width:500px){
+    body
 }
